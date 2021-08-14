@@ -34,4 +34,7 @@ See `scraping.py` and `index.html`
 
 ### Deliverable 3
 
-See `index.html`
+See `index.html`, `scraping.py`, and `mainpage.css`
+
+Note: `df.to_html()` function was updated in `scraping.py` to output additional table class of `table table-striped` as defined by Bootstrap CSS. This default style was overridden in `mainpage.css` to include darker
+background colors for the striped rows of the HTML Table. Additionally, `h1` was redefined to use the Google Font 'Audiowide' by default.

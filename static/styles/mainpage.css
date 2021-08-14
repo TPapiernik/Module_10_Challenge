@@ -1,0 +1,12 @@
+
+/* Modify h1 Style Font. Preferred: Google 'Audiowide'; Secondary: Websafe 'Georgia'; Fallback: 'sans-serif' */
+
+h1 {
+    font-family: "Audiowide", "Georgia", sans-serif;
+}
+
+/* Modify Default dataframe Table Style and override Background Color of Bootstrap Striped Rows Table Style */
+
+table.dataframe > tbody > tr:nth-of-type(odd) {
+   background-color: #c0c0c0;
+}

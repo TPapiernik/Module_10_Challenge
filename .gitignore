@@ -29,21 +29,22 @@ MANIFEST
 
 # USER Section
 # .DS_Store and Vim Hidden Files
-.DS_Store
-*.un~
+*.css~
+*.html~
 *.md~
 *.py~
 *.sql~
 *.swp
-.gitignore~
-..gitignore.un~
-*.html~
-*_NAMES.txt
-config.py
+*.un~
 *.zip
+*_NAMES.txt
+..gitignore.un~
+.DS_Store
+.gitignore~
+backup/
+config.py
 Metadata/
 Starter_Code/
-backup/
 
 
 # PyInstaller
